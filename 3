@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int k;
+	cin >> k;
+	int n;
+	cin >> n;
+	int c = (k + n - 1) % 7 ;
+	cout << c << " day of week" << endl;
+	if (c == 1) {
+		cout << "monday";
+	}
+	else if (c == 2) {
+		cout << "tuesday";
+	}
+	else if (c == 3) {
+		cout << "wednesday";
+	}
+	else if (c == 4) {
+		cout << "thursday";
+	}
+	else if (c == 5) {
+		cout << "friday";
+	}
+	else if (c == 6) {
+		cout << "saturday";
+	}
+	else if (c == 7) {
+		cout << "sunday";
+	}
+}
